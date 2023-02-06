@@ -22,9 +22,8 @@ class Discogs:
 
     def getArtistsFromLabel(self,label):
         results = self.discogs.search(label=label)
-        # return results.count
         # pages = []
-        # page, resultCount = 1,  0
+        page, resultCount = 1,  0
         # while resultCount < results.count:
         #     data = [item for item in results.page(page)]
         #     pages.append(data)
